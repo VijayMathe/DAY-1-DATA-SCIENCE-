@@ -1,0 +1,61 @@
+/* position the welcome message container */
+.welcome-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 25px;
+    display: flex;
+    align-items: center;
+}
+
+/* style the user icon */
+.welcome-container img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+/* style the welcome message */
+.welcome-container h5 {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 80px;
+    color: black;
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif; /* set the font family */
+    font-weight: bold; /* set the font weight */
+}
+
+table {
+    margin: 0 auto; /* center the table */
+    width: 80%; /* set the required width of the table */
+    max-height: 300px; /* set the maximum height of the table */
+    overflow-y: scroll; /* add a vertical scroll bar */
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-top: 60px;
+}
+
+th, td {
+    padding: 9px;
+    text-align: left;
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif; /* set the font family */
+}
+
+th {
+    background-color: #FFDAB9;
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: #F5F5F5;
+}
